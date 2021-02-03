@@ -10,10 +10,10 @@
  
 /* =Theme customization starts here
 ------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
 
 body.login div#login h1 a {
-    background-image: url("/wp-content/themes/officiallygarry/og-logo.png");
+	background-image: url("/wp-content/themes/officiallygarry/og-logo.png");
 }
 
 body.login {
@@ -22,28 +22,28 @@ body.login {
 }
 
 .login h1 a {
-    background-size: contain;
-    height: 3rem;
-    width: unset;
+	background-size: contain;
+	height: 3rem;
+	width: unset;
 }
 
 .login form {
 	font-family: 'Manrope', sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1rem;
-    color: #404040;
-    padding: 2rem;
-    border: 1px solid rgba(64,64,64,0.5);
-    box-shadow: 0 0 0.3rem rgb(64,64,64,0.5);
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1rem;
+	color: #404040;
+	padding: 2rem;
+	border: 1px solid rgba(64,64,64,0.5);
+	box-shadow: 0 0 0.3rem rgb(64,64,64,0.5);
 }
 
 .button-primary, button-primary:visited, .button-primary:hover {
-	font-weight: 500;
+	font-weight: 700;
 	text-transform: uppercase;
-    background: #2980b9 !important;
-    border-color: unset !important;
-	transition: all 1s ease !important;
+	background: #404040 !important;
+	border-color: unset !important;
+	color: #ffffff;
 }
 
 #nav a {

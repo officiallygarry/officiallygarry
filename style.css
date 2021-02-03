@@ -13,7 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
 
 body.login div#login h1 a {
-	background-image: url("/wp-content/themes/officiallygarry/og-logo.png");
+	background-image: url("/wp-content/themes/officiallygarry/officiallygarry-logo.png");
 }
 
 body.login {

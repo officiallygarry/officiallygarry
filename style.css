@@ -42,8 +42,8 @@ body.login {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 800;
 	color: #ffffff;
-	font-size: 0.9rem;
-	line-height: 2rem;
+	font-size: 0.9rem !important;
+	line-height: 2rem !important;
 	text-transform: uppercase;
 	background: #404040 !important;
 	border-color: unset !important;

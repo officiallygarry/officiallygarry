@@ -42,9 +42,11 @@ body.login {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 800;
 	color: #ffffff;
+	font-size: 0.9rem;
 	text-transform: uppercase;
 	background: #404040 !important;
 	border-color: unset !important;
+	border-radius: 0;
 }
 
 #nav a {
@@ -60,17 +62,21 @@ body.login {
 #backtoblog a {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 800;
-	color: #404040;
+	color: #ffffff;
 	font-size: 1rem;
 	line-height: 1rem;
 	text-transform: uppercase;
+	background: #404040;
+	padding: 0 12px;
 }
 
 .message {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 500;
 	color: #ffffff;
-	border-left: 0.5rem solid #ffffff !important;
+	font-size: 0.9rem;
+	line-height: 1rem;
+	border-left: 0.5rem solid rgba(38,38,38,0.5) !important;
 	background: #404040 !important;
 	box-shadow: none;
 }

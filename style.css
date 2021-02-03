@@ -1,0 +1,81 @@
+/*
+ Theme Name:     JMV Solutions
+ Theme URI:      https://www.jmvsolutions.co.uk
+ Description:    Divi Child Theme
+ Author:         JMV Solutions
+ Author URI:     https://www.jmvsolutions.co.uk
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
+body.login div#login h1 a {
+    background-image: url("https://jmvsolutions.co.uk/wp-content/uploads/jmv-logo-white.png");
+}
+
+body.login {
+	background-image: url("https://jmvsolutions.co.uk/wp-content/uploads/login-background.png");
+	background-size: cover;
+	opacity: 0.8;
+}
+
+.login h1 a {
+    background-size: contain;
+    height: 3rem;
+    width: unset;
+}
+
+.login form {
+	font-family: 'Monda', sans-serif;
+	font-size: 1rem !important;
+	line-height: 1rem;
+	font-weight: 400;
+	color: #36413e;
+    padding: 2rem;
+    background: rgba(255,255,255,0.8) !important;
+    border: unset;
+    box-shadow: 0 0 0.3rem #ffffff;
+    border-radius: 0.3rem;
+}
+
+.button-primary, button-primary:visited, .button-primary:hover {
+	font-weight: 500;
+	text-transform: uppercase;
+    background: #2980b9 !important;
+    border-color: unset !important;
+	transition: all 1s ease !important;
+}
+
+#nav a {
+	font-family: 'Monda', sans-serif;
+	font-weight: 400;
+	color: #ffffff !important;
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#backtoblog a {
+	font-family: 'Monda', sans-serif;
+	font-weight: 400;
+	color: #ffffff !important;
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	text-transform: uppercase;
+}
+
+.message {
+	border-left: 0.5rem solid #ffffff !important;
+    background-color: rgba(255,255,255,0.6) !important;
+    box-shadow: none;
+    border-radius: 0.3rem;
+    font-family: 'Monda', sans-serif;
+    color: #36413e;
+    font-weight: 400;
+}

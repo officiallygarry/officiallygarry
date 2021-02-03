@@ -67,11 +67,10 @@ body.login {
 }
 
 .message {
-	border-left: 0.5rem solid #ffffff !important;
-    background-color: rgba(255,255,255,0.6) !important;
-    box-shadow: none;
-    border-radius: 0.3rem;
-    font-family: 'Monda', sans-serif;
-    color: #36413e;
-    font-weight: 400;
+	border-left: unset;
+	background-color: #404040;
+	box-shadow: none;
+	font-family: 'Manrope', sans-serif;
+	color: #ffffff;
+	font-weight: 500;
 }

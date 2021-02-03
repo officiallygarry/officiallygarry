@@ -55,25 +55,32 @@ body.login {
 	box-shadow: 0 0 0.5rem #404040;
 }
 
-#nav a {
+#nav a, a:visited {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 800;
 	color: #404040;
 	font-size: 1rem;
 	line-height: 1rem;
 	text-transform: uppercase;
-	text-align: center;
+	transition: all 1s ease;
 }
 
-#backtoblog a {
+#nav a:hover {
+	text-decoration: underline;
+}
+
+#backtoblog a, a:visited {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 800;
 	color: #ffffff !important;
 	font-size: 0.9rem;
 	line-height: 2rem;
 	text-transform: uppercase;
-	background: #404040;
-	padding: 0 12px;
+	transition: all 1s ease;
+}
+
+#backtoblog a:hover {
+	text-decoration: underline;
 }
 
 .message {

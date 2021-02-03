@@ -38,7 +38,7 @@ body.login {
 	box-shadow: 0 0 0.3rem rgb(64,64,64,0.5);
 }
 
-.button-primary, button-primary:visited, .button-primary:hover {
+.button-primary, button-primary:visited {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 800;
 	color: #ffffff;
@@ -48,6 +48,11 @@ body.login {
 	background: #404040 !important;
 	border-color: unset !important;
 	border-radius: 0 !important;
+	transition: all 1s ease;
+}
+
+.button-primary:hover {
+	box-shadow: 0 0 0.5rem #404040;
 }
 
 #nav a {

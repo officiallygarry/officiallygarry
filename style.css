@@ -13,7 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 
 body.login div#login h1 a {
-    background-image: url("https://jmvsolutions.co.uk/wp-content/uploads/jmv-logo-white.png");
+    background-image: url("/wp-content/themes/officiallygarry/og-logo.png");
 }
 
 body.login {

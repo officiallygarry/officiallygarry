@@ -17,7 +17,7 @@ body.login div#login h1 a {
 }
 
 body.login {
-	background-image: url("https://jmvsolutions.co.uk/wp-content/uploads/login-background.png");
+	background-image: url("/wp-content/themes/officiallygarry/login-background.png");
 	background-size: cover;
 	opacity: 0.8;
 }

@@ -68,7 +68,7 @@ body.login {
 
 .message {
 	border-left: unset;
-	background-color: #404040;
+	background: #404040;
 	box-shadow: none;
 	font-family: 'Manrope', sans-serif;
 	color: #ffffff;

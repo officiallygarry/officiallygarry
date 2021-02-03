@@ -10,7 +10,7 @@
  
 /* =Theme customization starts here
 ------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 
 body.login div#login h1 a {
     background-image: url("https://jmvsolutions.co.uk/wp-content/uploads/jmv-logo-white.png");
@@ -19,7 +19,6 @@ body.login div#login h1 a {
 body.login {
 	background-image: url("/wp-content/themes/officiallygarry/login-background.png");
 	background-size: cover;
-	opacity: 0.8;
 }
 
 .login h1 a {
@@ -30,16 +29,13 @@ body.login {
 
 .login form {
 	font-family: 'Manrope', sans-serif;
-	font-weight: 400;
-	font-size: 1rem !important;
-	line-height: 1rem;
-	
-	color: #36413e;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #404040;
     padding: 2rem;
-    background: rgba(255,255,255,0.8) !important;
-    border: unset;
-    box-shadow: 0 0 0.3rem #ffffff;
-    border-radius: 0.3rem;
+    border: 1px solid rgba(64,64,64,0.5);
+    box-shadow: 0 0 0.3rem rgb(64,64,64,0.5);
 }
 
 .button-primary, button-primary:visited, .button-primary:hover {

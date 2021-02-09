@@ -91,3 +91,17 @@ body.login {
 	background: #404040 !important;
 	box-shadow: none;
 }
+
+#cookie-law-info-bar {
+	font-family: 'Manrope', sans-serif;
+	font-weight: 500;
+	color: #404040;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0.5rem;
+	box-shadow: 0 0 0.3rem #404040;
+	position: fixed;
+	display: block;
+	width: 99%;
+	bottom: 0.8rem;
+	margin: 0 0.5rem;
+}

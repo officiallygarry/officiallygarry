@@ -93,15 +93,15 @@ body.login {
 }
 
 #cookie-law-info-bar {
-	font-family: 'Manrope', sans-serif;
-	font-weight: 500;
-	color: #404040;
+	font-family: 'Manrope', sans-serif !important;
+	font-weight: 500 !important;
+	color: #404040 !important;
 	background-color: rgb(255, 255, 255);
 	border-radius: 0.5rem;
 	box-shadow: 0 0 0.3rem #404040;
 	position: fixed;
 	display: block;
 	width: 99%;
-	bottom: 0.8rem;
+	bottom: 0.8rem !important;
 	margin: 0 0.5rem;
 }

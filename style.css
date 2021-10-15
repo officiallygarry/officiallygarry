@@ -1,9 +1,7 @@
 /*
- Theme Name:     officiallygarry
- Theme URI:      https://www.officiallygarry.co.uk
+ Theme Name:     Freshly Pressed
+ Theme URI:      https://www.freshlypressed.co.uk
  Description:    Divi Child Theme
- Author:         @officiallygarry
- Author URI:     https://twitter.com/officiallygarry
  Template:       Divi
  Version:        1.0.0
 */
@@ -13,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
 
 body.login div#login h1 a {
-	background-image: url("/wp-content/themes/officiallygarry/officiallygarry-logo.png");
+	background-image: url("/wp-content/themes/officiallygarry/freshlypressed-wordpress-logo.png");
 }
 
 body.login {

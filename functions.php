@@ -11,12 +11,12 @@ function custom_login_stylesheet() {
 add_action( 'login_enqueue_scripts', 'custom_login_stylesheet' );
 
 function my_login_logo_url() {
-    return 'https://www.freshlypressed.co.uk';
+    return 'https://web.officiallygarry.co.uk';
 }
 add_filter('login_headerurl', 'my_login_logo_url');
 
 function my_login_logo_url_title() {
-    return 'Digital Content Creation in Plymouth';
+    return 'Digital content design in Plymouth';
 }
 add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 
